@@ -106,7 +106,7 @@
 // while (true) {
 //   number = parseInt(prompt("Enter a number in the range 0 to 100:"));
 
-  // Check if the input is a number and within the range
+//   // Check if the input is a number and within the range
 //   if (!isNaN(number) && number >= 0 && number <= 100) {
 //     break; // Exit the loop if the input is valid
 //   } else {
@@ -114,5 +114,42 @@
 //   }
 // }
 
-// After the loop, 'number' contains a valid input
+// // After the loop, 'number' contains a valid input
 // alert("You entered a valid number: " + number);
+
+//Q:11
+// var  userInput;
+// while(true){
+//   userInput = prompt("Enter a number or type 'exit' to quit:");
+//   if(isNaN( userInput)){
+//   alert("is not number")
+// }else{
+//   alert("number " +number)
+// }
+// }
+
+//Q:12
+// let number = prompt("put the number range 0-100");
+
+// let numbersum = 0;
+// for (let i = 0; i <= number; i++) {
+//   numbersum += i;
+// }
+// alert(numbersum);
+
+//Q:13
+// let prop = prompt("put the number range 0-100");
+
+// let ssum = 0;
+
+// for (let i = 0; i <= prop; i++) {
+//   ssum += i;
+//   console.log(i);
+// }
+
+// let average = ssum / prop;
+// average = Math.floor(average);
+// alert(average);
+
+
+
